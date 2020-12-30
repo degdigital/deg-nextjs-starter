@@ -1,15 +1,24 @@
 {
   "name": "deg-nextjs-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "scaffold": "plop",
+    "plop": "plop"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
     "next": "10.0.4",
+    "prop-types": "^15.7.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "swr": "0.3.11"
+  },
+  "devDependencies": {
+    "plop": "^2.7.4"
   }
 }
