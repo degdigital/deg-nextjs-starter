@@ -1,4 +1,4 @@
-# The Fresh Market Web App
+# deg-nextjs-starter
 
 ## Introduction
 
