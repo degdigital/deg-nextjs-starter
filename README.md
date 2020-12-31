@@ -39,7 +39,7 @@ To learn more about Next.js, take a look at the following resources:
 
 ## Scaffolding New Components
 
-This starter kit uses [plop](https://plopjs.com/) to scaffold new React components after completing installation:
+This starter kit uses [Plop](https://plopjs.com/) to scaffold new React components after completing installation:
 
 1. The best way to run Plop is to install it globally: `npm install -g plop`. However, if you'd prefer, Plop can also be run from the project's NPM scripts, by typing either `npm run plop` or `npm run scaffold`.
 2. To scaffold a new component, type `plop`. You'll be guided through a series of prompts.
@@ -50,5 +50,5 @@ This starter kit uses [plop](https://plopjs.com/) to scaffold new React componen
 7. Please note that Next.js supports import aliases, and components that are scaffolded via Plop are automatically configured to be imported in a single statement:
 
 ```
-import { ComponentA, ComponentB} from '@components/index';`
+import { ComponentA, ComponentB } from '@components/index';
 ```
