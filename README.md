@@ -36,3 +36,19 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+## Scaffolding New Components
+
+This starter kit uses [plop](https://plopjs.com/) to scaffold new React components after completing installation:
+
+1. The best way to run Plop is to install it globally: `npm install -g plop`. However, if you'd prefer, Plop can also be run from the project's NPM scripts, by typing either `npm run plop` or `npm run scaffold`.
+2. To scaffold a new component, type `plop`. You'll be guided through a series of prompts.
+3. At the first prompt, give your component a name (i.e., "Accordion").
+4. At the next prompt, choose whether you want a CSS Modules file created alongside your component (Next.js has built-in [CSS Modules support](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css)).
+5. At the final prompt, choose the Storybook story file created alongside your component. You can choose [Component Story Format (CSF)](https://storybook.js.org/docs/react/api/csf), [Markdown with JSX (MDX)](https://storybook.js.org/docs/react/api/mdx), or no story at all (_note_: DEG's best practice is to create a story whenever possible).
+6. Your component and its corresponding files should be created in the `components` directory, and are ready for use.
+7. Please note that Next.js supports import aliases, and components that are scaffolded via Plop are automatically configured to be imported in a single statement:
+
+```
+import { ComponentA, ComponentB} from '@components/index';`
+```
