@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Fresh Market Web App
+
+## Introduction
+
+This is the starter kit for DEG's [Next.js](https://nextjs.org/) projects, which can be installed using [create-next-app](https://nextjs.org/docs/api-reference/create-next-app). It contains project configurations and tooling that follow the DEG UI team's recommended processes and best practices.
+
+## Installation
+
+1. create-next-app uses [npx](https://www.npmjs.com/package/npx) for installation. If you don't already have it installed, type: `npm install -g npx`.
+2. New create-next-app projects are bootstrapped into a new directory. As such, navigate in your terminal to the parent directory of where you want your project to live.
+3. Install the project: `npx create-next-app [PROJECT NAME] -e https://github.com/degdigital/deg-nextjs-starter`.
+4. After installation completes, change into your new project's directory: `cd [PROJECT NAME]`.
+5. That's it! Your Next.js project is ready.
 
 ## Getting Started
 
@@ -24,11 +36,3 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
