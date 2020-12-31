@@ -1,18 +1,24 @@
 {
   "name": "deg-nextjs-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "build-storybook": "build-storybook",
+    "dev": "next dev",
+    "plop": "plop",
+    "scaffold": "plop",
     "start": "next start",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
     "next": "10.0.4",
+    "prop-types": "^15.7.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "swr": "0.3.11"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -20,6 +26,8 @@
     "@storybook/addon-essentials": "^6.1.11",
     "@storybook/addon-links": "^6.1.11",
     "@storybook/react": "^6.1.11",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "plop": "^2.7.4",
+    "react-dom": "17.0.1"
   }
 }

@@ -1,0 +1,25 @@
+import PropTypes from 'prop-types';
+{{#if includeCssModules }}
+import styles from './{{pascalCase name}}.module.css';
+{{/if}}
+
+const {{pascalCase name}} = props => {
+  return (
+    <div className={{#if includeCssModules }}{ styles.{{pascalCase name}} }{{else}}'{{dashCase name}}'{{/if }}>
+      {{pascalCase name}}
+    </div>
+  );
+};
+
+{{pascalCase name}}.defaultProps = {
+
+};
+
+{{pascalCase name}}.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ])
+};
+
+export default {{pascalCase name}};
