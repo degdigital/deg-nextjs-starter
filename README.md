@@ -52,3 +52,11 @@ This starter kit uses [Plop](https://plopjs.com/) to scaffold new React componen
 ```
 import { ComponentA, ComponentB } from '@components/index';
 ```
+
+## Storybook
+
+DEG uses [Storybook](http://storybook.js.org/) for developing, testing and demoing its UI components. To run Storybook:
+
+1. From the project directory, type `npm run storybook`.
+2. See `Scaffolding New Components` above for instructions on creating a component and accomponying Storybook story file.
+3. Visit [http://localhost:6006/](http://localhost:6006/) to view your stories in Storybook.
