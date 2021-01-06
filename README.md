@@ -7,7 +7,7 @@ This is the starter kit for DEG's [Next.js](https://nextjs.org/) projects, which
 ## Node Prerequisites
 1. The minimum recommended Node version for this starter is 15.4.0.
 2. We recommend using [NVM](https://github.com/nvm-sh/nvm) for Node version management. Once installed, you can run `nvm install 15.4.0` to install the recommended version, and `nvm use 15.4.0` to use it.
-3. But wait, there's more! You can automate setting up Node every time you start your project. This starter contains a `.node-version` file, which (if you're using an automated version switcher such as [AVN](https://www.npmjs.com/package/avn)) will automatically change your Node version to the correct version whenever you `cd` into your project's directory. After installing NVM, just un `npm install -g avn avn-nvm avn-n` and `avn setup` to automate it.
+3. But wait, there's more! You can automate setting up Node every time you start your project. This starter contains a `.node-version` file, which (if you're using an automated version switcher such as [AVN](https://www.npmjs.com/package/avn)) will automatically change your Node version to the correct version whenever you `cd` into your project's directory. After installing NVM, just run `npm install -g avn avn-nvm avn-n` and `avn setup` to automate it.
 ## Installation
 1. This starter uses create-next-app, which uses [npx](https://www.npmjs.com/package/npx) for installation. If you don't already have it installed, type: `npm install -g npx`.
 2. New create-next-app projects are bootstrapped into a new directory. As such, navigate in your terminal to the parent directory of where you want your project to live.
