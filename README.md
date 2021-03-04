@@ -11,7 +11,7 @@ This is the starter kit for DEG's [Next.js](https://nextjs.org/) projects, which
 ## Installation
 1. This starter uses create-next-app, which uses [npx](https://www.npmjs.com/package/npx) for installation. If you don't already have it installed, type: `npm install -g npx`.
 2. New create-next-app projects are bootstrapped into a new directory. As such, navigate in your terminal to the parent directory of where you want your project to live.
-3. Install the project: `npx --legacy-peer-deps create-next-app [PROJECT NAME] -e https://github.com/degdigital/deg-nextjs-starter`. _Note:_ the `--legacy-peer-deps` flag fixes an issue with several project dependencies that are not yet compatible with NPM 7, but will hopefully be fixed in the future.
+3. Install the project: `npx create-next-app [PROJECT NAME] -e https://github.com/degdigital/deg-nextjs-starter --legacy-peer-deps`. _Note:_ the `--legacy-peer-deps` flag fixes an issue with several project dependencies that are not yet compatible with NPM 7, but will hopefully be fixed in the future.
 4. After installation completes, change into your new project's directory: `cd [PROJECT NAME]`.
 5. That's it! Your Next.js project is ready.
 
