@@ -5,13 +5,16 @@
 This is the starter kit for DEG's [Next.js](https://nextjs.org/) projects, which can be installed using [create-next-app](https://nextjs.org/docs/api-reference/create-next-app). It contains project configurations and tooling that follow the DEG UI team's recommended processes and best practices.
 
 ## Node Prerequisites
-1. The minimum recommended Node version for this starter is 15.4.0.
-2. We recommend using [NVM](https://github.com/nvm-sh/nvm) for Node version management. Once installed, you can run `nvm install 15.4.0` to install the recommended version, and `nvm use 15.4.0` to use it.
+
+1. The minimum recommended Node version for this starter is 14.16.1.
+2. We recommend using [NVM](https://github.com/nvm-sh/nvm) for Node version management. Once installed, you can run `nvm install 14.16.1` to install the recommended version, and `nvm use 14.16.1` to use it.
 3. But wait, there's more! You can automate setting up Node every time you start your project. This starter contains a `.node-version` file, which (if you're using an automated version switcher such as [AVN](https://www.npmjs.com/package/avn)) will automatically change your Node version to the correct version whenever you `cd` into your project's directory. After installing NVM, just run `npm install -g avn avn-nvm avn-n` and `avn setup` to automate it.
+
 ## Installation
+
 1. This starter uses create-next-app, which uses [npx](https://www.npmjs.com/package/npx) for installation. If you don't already have it installed, type: `npm install -g npx`.
 2. New create-next-app projects are bootstrapped into a new directory. As such, navigate in your terminal to the parent directory of where you want your project to live.
-3. Install the project: `npx create-next-app [PROJECT NAME] -e https://github.com/degdigital/deg-nextjs-starter --legacy-peer-deps`. _Note:_ the `--legacy-peer-deps` flag fixes an issue with several project dependencies that are not yet compatible with NPM 7, but will hopefully be fixed in the future.
+3. Install the project: `npx create-next-app [PROJECT NAME] -e https://github.com/degdigital/deg-nextjs-starter`.
 4. After installation completes, change into your new project's directory: `cd [PROJECT NAME]`.
 5. That's it! Your Next.js project is ready.
 
