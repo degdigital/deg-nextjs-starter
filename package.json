@@ -33,6 +33,7 @@
     "plop": "^2.7.4",
     "postcss-easy-import": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "storybook-css-modules-preset": "^1.0.6"
   }
 }
