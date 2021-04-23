@@ -1,5 +1,5 @@
 module.exports = plop => {
-  const templatePath = `plop_templates/Component`;
+  const templatePath = `.plop/Component`;
   const componentPath = `components/{{pascalCase name}}`;
   const includeCssModules = 'includeCssModules';
   const storybookMdxValue = 'storybookmdx';
