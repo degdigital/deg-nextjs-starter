@@ -30,6 +30,7 @@
     "@storybook/addon-links": "^6.2.8",
     "@storybook/react": "^6.2.8",
     "babel-loader": "^8.2.2",
+    "dateformat": "^3.0.3",
     "plop": "^2.7.4",
     "postcss-easy-import": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
