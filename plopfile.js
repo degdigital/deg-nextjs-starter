@@ -1,4 +1,4 @@
-const { componentGenerator } = require('./.plop/index.js');
+const componentGenerator = require('./.plop/Component.generator.js');
 
 module.exports = plop => {
   const settings = {
